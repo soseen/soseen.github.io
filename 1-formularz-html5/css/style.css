@@ -1,0 +1,63 @@
+form {
+    margin-left: 10px;
+}
+
+
+input[type="text"], 
+input[type="email"],
+input[type="tel"],
+input[type="submit"],
+textarea, select {
+    display: block;
+    padding: 5px;
+    color: white;
+    background-color: #2b4a64;
+    border-width: 1px;
+    border: solid;
+    border-color: #2b4a64;
+    box-sizing: border-box;
+    width: 60%;
+}
+
+label {
+    color: white;
+}
+
+
+.form-sheet {
+    background-color: #213b50;
+    width: 25%;
+}
+
+textarea {
+    border-width: 1px;
+    border-color: #2b4a64; 
+    background-color: #2b4a64;
+}
+
+
+form p {
+    color: white;
+}
+
+input[type="submit"] {
+    font-size: 120%;
+    border-width: 0px;
+    color: white;
+    background-color: green;
+    height: 50px;
+    width: 90px;
+}
+
+textarea {
+    height: 120px;
+}
+
+input[type="text"]:hover, 
+input[type="email"]:hover,
+input[type="tel"]:hover, textarea:hover, select:hover {
+    background-color: #4e708c;
+    border-width: 1px;
+    border: solid;
+    border-color: #4e708c;
+}
