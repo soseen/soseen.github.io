@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.size-px {
+    width: 400px;
+    height: 200px;
+    background: rgb(29,214,143);
+}
+
+.size-pr {
+    width: 60%;
+    height: 200px;
+    background: greenyellow;
+}
+
+/* zmniejsza nam wysokosc i szerokosc wraz ze zmiana wielkosci okna przegladarki */
+.size-vh {
+    width: 50vh;
+    height: 200px;
+    background: bisque;
+}
+
+.size-vw {
+    width: 50vw;
+    height: 200px;
+    background: rosybrown;
+}
+
+.em {
+    font-size: 30px;
+}
+
+.em p {
+    font-size: 2em;
+}
+
+.rem {
+    font-size: 3em;
+}
+
+.rem p {
+    font-size: 1rem;
+}

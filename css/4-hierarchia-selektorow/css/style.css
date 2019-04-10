@@ -1,0 +1,29 @@
+/* 100 */
+#text {
+    background-color: aqua;
+    font-size: 60px;
+}
+
+/* 1 */
+p {
+    background-color: yellow;
+    font-size: 22px;
+    color: greenyellow;
+}
+
+/* 10 */
+.text {
+    background-color: green;
+    font-size: 40px;
+}
+
+/* 12 */
+body p.text {
+    background-color: gainsboro;
+    font-size: 40px;
+}
+
+[type="submit"] {
+    font-size: 50%;
+    background-color: green;
+}
