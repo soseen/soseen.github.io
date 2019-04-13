@@ -1,0 +1,16 @@
+#coconut {
+    float: left;
+    width: 20%;
+    height: 20%;
+}
+
+#coconut-2 {
+    float: right;
+    width: 20%;
+    height: 20%;
+}
+
+p:last-child {
+    background-color: yellow;
+    clear: both;
+}
