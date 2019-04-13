@@ -1,0 +1,7 @@
+#background-img {
+    background-color: lightblue;
+    background-image: url("../img/kokos.jpg");
+    background-repeat: repeat-x;
+    background-position: 150px 200px;
+    background-attachment: scroll;
+}
