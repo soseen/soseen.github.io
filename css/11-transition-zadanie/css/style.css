@@ -1,0 +1,49 @@
+.container {
+    position: absolute;
+    margin: 0 auto;
+    width: 1000px;
+    height: 1000px;
+    background-color: gray;
+  }
+  
+  .box {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 425px;
+  }
+  
+  #box-1 {
+    background-color: blue;
+    top: 0;
+  }
+  
+  #box-2 {
+    background-color: red;
+    top: 155px;
+    z-index: 1;
+  }
+  
+  #box-3 {
+    background-color: yellow;
+    top: 310px;
+    z-index: 0;
+  }
+  
+  #box-1:hover {
+    width: 300px;
+    transition: width 2s linear 0s;
+  
+  }
+  
+  #box-2:hover {
+    height: 300px;
+    transition: height 2s linear 0s;
+  }
+  
+  #box-3:hover {
+    width: 300px;
+    transition: width 2s linear 0s;
+    height: 300px;
+    transition: height 2s linear 0s;
+  }

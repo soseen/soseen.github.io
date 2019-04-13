@@ -1,0 +1,32 @@
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+#colors {
+    background-color: navy;
+}
+
+#box1 {
+    background-color: violet;
+}
+
+#box2 {
+    background-color: yellow;
+}
+
+#box3 {
+    background-color: mediumspringgreen;
+}
+
+#box1:hover {
+    width: 300px;
+    /* co ma podlegac zmianie, czas animiacji, rodzaj animacji (line, ease-in, earase-out), opoznienie */
+    transition: width 3s linear 0s;
+}
+
+#colors:hover {
+    background-color: lightblue;
+    transition: background-color 3s linear 1s;
+}
