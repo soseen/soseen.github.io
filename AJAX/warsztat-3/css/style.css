@@ -1,0 +1,21 @@
+.ad-container {
+    background-color: beige;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+figure {
+    display: inline-block;
+}
+
+p {
+    margin-left: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info {
+    display: inline-block;
+    /* background-color: honeydew; */
+    border: 1px solid black;
+    max-width: 40%;
+}
