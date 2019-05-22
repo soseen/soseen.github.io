@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box; 
+   }
+
+
+#pracownicy {
+    background-color: beige;
+    border: 2px solid black;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+ #pracownicy div {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+} */
+
+#pracownicy div > span,
+#pracownicy div > input,
+#pracownicy div > h2 {
+    /* background-color: royalblue; */
+    border: 1px solid orange;
+    /* display: flex;  */
+    /* flex-direction: row; */ 
+    flex-basis: 50%; 
+  }
+
+.pracownik {
+    flex: 1;
+}
+
+/* .number {
+    flex: 2;
+} */
+
+/* input {
+    width: 10%;
+} */

@@ -1,0 +1,22 @@
+i {
+    color: rgba(216, 130, 17, 0.8);
+    height:80%;
+}
+
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(63, 61, 61, 0.6);
+}
+
+h2 {
+    margin-top: 20px;
+
+}
+
+.grey-box {
+    background-color: gray;
+}
+
+.row div {
+    margin-top: 60px !important;
+}
