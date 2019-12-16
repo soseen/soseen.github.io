@@ -14,31 +14,145 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container text-center">
+    <!-- <div class="container text-center accordion md-accordion">
         <h2>FAQ</h2>
 
         <div class="row">
-                <a data-toggle="collapse" class="col-md-12" href="#c1" aria-expanded="false">Kim jest Front-End Developer?</a><br>
+                <a data-toggle="collapse" class="col-md-12" href="#c1" aria-expanded="false" aria-controls="c1">Kim jest Front-End Developer?</a><br>
                 <div class="collapse" id="c1">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, suscipit quisquam velit explicabo esse hic?</p>
                 </div>
         </div>
         
         <div class="row">
-                <a data-toggle="collapse" class="col-md-12" href="#c2" aria-expanded="false">Od czego zaczyna sie nauka?</a><br>
+                <a data-toggle="collapse" class="col-md-12" href="#c2" aria-expanded="false" aria-controls="c2">Od czego zaczyna sie nauka?</a><br>
                 <div class="collapse" id="c2">
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, doloremque possimus accusantium impedit harum quasi ea cupiditate id neque perferendis consectetur ex iure maxime repellat adipisci molestias, illum dolore odit nemo! Molestiae est ducimus nisi id aperiam. Corporis consectetur eveniet inventore ducimus dolor qui provident, error ipsa. Ullam dolorum natus nostrum nesciunt vitae harum earum et.</p>
                 </div>
         </div>
 
         <div class="row">
-                <a data-toggle="collapse" class="col-md-12" href="#c3" aria-expanded="false">Co powinienienem umieć?</a><br>
+                <a data-toggle="collapse" class="col-md-12" href="#c3" aria-expanded="false" aria-controls="c3">Co powinienienem umieć?</a><br>
                 <div class="collapse" id="c3">
                     <img src="img/front-end-skills.png" alt="front-end-skills">
                 </div>
         </div>
 
+    </div> -->
+
+    <!--Accordion wrapper-->
+<div class="accordion md-accordion text-center" id="accordionList" role="tablist" aria-multiselectable="true">
+
+    <h2>FAQ</h2>
+
+    <!-- Accordion card -->
+    <div class="container text-center">
+  
+      <!-- Card header -->
+      <div class="card-header" role="tab" id="head-1">
+        <a data-toggle="collapse" data-parent="#accordionList" href="#c1" aria-expanded="false" aria-controls="c1">
+            Kim jest Front-End Developer?
+        </a>
+      </div>
+  
+      <!-- Card body -->
+      <div id="c1" class="collapse show" role="tabpanel" aria-labelledby="head-1"
+        data-parent="#accordionList">
+        <div class="card-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, suscipit quisquam velit explicabo esse hic?</p>
+        </div>
+      </div>
+  
     </div>
+    <!-- Accordion card -->
+  
+    <!-- Accordion card -->
+    <div class="container text-center">
+  
+        <!-- Card header -->
+        <div class="card-header" role="tab" id="head-2">
+          <a data-toggle="collapse" data-parent="#accordionList" href="#c2" aria-expanded="false" aria-controls="c2">
+            Od czego zaczyna sie nauka?
+          </a>
+        </div>
+    
+        <!-- Card body -->
+        <div id="c2" class="collapse show" role="tabpanel" aria-labelledby="head-2"
+          data-parent="#accordionList">
+          <div class="card-body">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, doloremque possimus accusantium impedit harum quasi ea cupiditate id neque perferendis consectetur ex iure maxime repellat adipisci molestias, illum dolore odit nemo! Molestiae est ducimus nisi id aperiam. Corporis consectetur eveniet inventore ducimus dolor qui provident, error ipsa. Ullam dolorum natus nostrum nesciunt vitae harum earum et.</p>
+          </div>
+        </div>
+    
+    </div>
+    <!-- Accordion card -->
+  
+    <!-- Accordion card -->
+    <div class="container text-center">
+  
+        <!-- Card header -->
+        <div class="card-header" role="tab" id="head-3">
+          <a data-toggle="collapse" data-parent="#accordionList"  href="#c3" aria-expanded="false" aria-controls="c3">
+              Kim jest Front-End Developer?
+          </a>
+        </div>
+    
+        <!-- Card body -->
+        <div id="c3" class="collapse show" role="tabpanel" aria-labelledby="head-3"
+          data-parent="#accordionList">
+          <div class="card-body">
+            <img src="img/front-end-skills.png" alt="front-end-skills">
+          </div>
+        </div>
+    
+    </div>
+</div>
+
+<div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                Collapsible Group Item #1
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Collapsible Group Item #2
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                Collapsible Group Item #3
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+      </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

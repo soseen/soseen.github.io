@@ -10,16 +10,18 @@ btn.click(function(){
         'margin-top': '2px'
     });
     $.getJSON
-    ('https://akademia108.pl/kurs-front-end/ajax/1-pobierz-dane-programisty.php',
+    ('https://cors-anywhere.herokuapp.com/https://eun1.api.riotgames.com/lol/summoner/v4/summoners/by-name/Oriana%20Brande?api_key=RGAPI-2ffe004c-fa7f-4a5d-9a8b-7f4516ae0a90',
         response => {
-            $.each(response ,function(key, value){
+            $.each(response, function(key, value){
                 console.log(key, value);
-                var paragraph = $('<p></p>').text(`${key}: ${value}`);
-                paragraph.css({
-                    'margin-left': '2px',
-                    'font-family': 'Tahoma, Geneva, sans-serif'
-                });
-                container.append(paragraph);
+                if(key == 'name' || key == 'summonerLevel'){
+                    var paragraph = $('<p></p>').text(`${key}: ${value}`);
+                    paragraph.css({
+                        'margin-left': '2px',
+                        'font-family': 'Tahoma, Geneva, sans-serif'
+                    });
+                    container.append(paragraph);
+                }
                 });
             $('body').append(container);
             }

@@ -1,0 +1,21 @@
+
+.input-panel input {
+    width: 60%;
+    background-color: rgb(170, 170, 197);
+    text-align: center;
+}
+
+form { 
+    margin-top: 20%;
+    width: 60%;
+    background-color: cornflowerblue;
+}
+
+.btn-primary {
+    color: white;
+}
+
+button {
+    size: 5000px;
+}
+
