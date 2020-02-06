@@ -1,5 +1,6 @@
 
 $(function() {
+
     // const slider = $('#slider');
     const slideShow = $('.slide-show');
     const slides = $('.single-slide');
